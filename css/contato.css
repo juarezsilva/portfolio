@@ -35,7 +35,7 @@ section.contato {
     font-family: 'Press Start 2P', cursive;
     font-size: 30px;
     color: rgb(255, 255, 255);
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 .email,
@@ -92,7 +92,11 @@ section.contato {
 @media screen and (max-width: 768px) {
 
     section.contato {
-        padding: 50px 0;             
+        padding: 50px;             
+    }
+
+    .contato h1 {
+        padding-bottom: 30px;
     }
 
     .email i {
