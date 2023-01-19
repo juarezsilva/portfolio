@@ -217,7 +217,7 @@ section.card-habilidades .itens-servicos .item {
 @media screen and (max-width: 768px) {
 
     section.card-habilidades {
-        height: 230%;        
+        height: 250%;        
     }
 
     section.card-habilidades .itens-servicos .item {
