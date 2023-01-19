@@ -35,7 +35,7 @@ section.conteudo-sobre {
     font-size: 30px;
     color: rgb(250, 250, 250);
     text-align: center;
-    padding-top: 100px;        
+    padding-top: 50px;        
 }
 
 
@@ -96,26 +96,26 @@ section.conteudo-sobre {
 @media screen and (max-width: 768px) {
 
     section.conteudo-sobre {
-        height: 130%;
-    }
-
-    .servicos-sobre-conteudo {
-        text-align: center;
-        display: flex;
-        flex-direction: column;
+        height: 140%;        
     }
 
     .conteudo-texto h2 {
         font-size: 35px;
         color: rgb(250, 250, 250);
         text-align: center; 
-        padding-bottom: 15px;         
+        padding-bottom: 15px;               
     }
 
     .conteudo-texto p { 
         font-size: 18px;        
-        padding-top: 5px;
+        padding-top: 1px;
         padding-bottom: 1px;        
+    }
+
+    .servicos-sobre-conteudo {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
     }
     
     .servico-conteudo-imagem {

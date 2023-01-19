@@ -97,7 +97,7 @@ nav {
       flex-direction: column;
       align-items: center;
       justify-content: space-around;
-      transform: translateX(100%);
+      transform: translateY(-120%);
       transition: transform 0.3s ease-in;
     }
     .nav-list li {
@@ -316,7 +316,7 @@ section.conteudo-geral {
         flex-direction: column;
         /*align-items: center;*/
         justify-content: space-around; 
-        transform: translateX(100%);  
+        transform: translateY(-120%);  
         transition: transform 0.3s ease-in; 
         z-index: 999;    
     }
@@ -358,7 +358,7 @@ section.conteudo-geral {
     }	
 
     .servicos {
-        width: 100%;        
+        width: 90%;        
         text-align: center;
         display: flex;
         flex-direction: column-reverse; 
@@ -366,7 +366,7 @@ section.conteudo-geral {
     }  
 
     .descricao2 {
-        width: 100%;             
+        width: 80%;             
         margin: 0 auto;
     }
 
@@ -375,15 +375,14 @@ section.conteudo-geral {
     }
 
     .descricao1 {
-        width: 50%;
+        width: 100%;
         margin: 0 auto;
         padding-bottom: 10px;
         text-align: center;
     }
 
     .descricao1-wraper {
-        display: inline-block;
-        margin: 10px;       
+        display: inline-block;               
     }
     
     .descricao1-wraper h2 {        
