@@ -1,0 +1,208 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+html, body {
+	height: 100%;    
+}
+
+.centralizador {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.clear {
+    clear: both;
+}
+
+/* ----- SESSÃO PROJETOS ----- */
+
+#projetos {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #646464;  
+}
+
+.projetos h2, .projetos a {
+    color: rgb(255, 255, 255);   
+}
+
+.projetos h2 {
+    font-family: 'Press Start 2P', cursive;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 35px;
+}
+
+button {
+    padding: 10px 90px;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+    background-color: #313131;
+    border: none;
+    transition: ease-in-out 0.3s;
+    font-size: 18px;
+}
+
+button:hover,
+button:focus {
+    outline: none;
+    background-color: #424242;
+    box-shadow: 0 0 0 2px #878787;
+}
+
+.github-link {
+    margin: 0 auto;
+    padding-top: 35px;
+    padding-bottom: 93px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;    
+}
+
+.projetos a {
+    display: inline;
+    text-decoration: none;
+    font-size: 20px;    
+}
+
+.projetos-itens {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 12.5px;
+    width: 100%; 
+    max-width: 100%;      
+    justify-content: center;
+    text-align: center;
+}
+
+.pro {
+    background-color: #C4C4C4;
+    width: 300px;
+    height: 190px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: ease-in-out 0.3s;
+}
+
+.pro1 a {
+    background-color: #C4C4C4;
+    width: 300px;
+    height: 190px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: ease-in-out 0.3s;
+}
+
+.pro div p {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    color: #C4C4C4;
+}
+
+.pro:hover {
+    letter-spacing: 5px;
+}
+
+.pro div {
+    background-color: #313131;
+    width: 1000px;
+    text-align: center;
+    padding: 5% 0;
+    margin: 0 -45px 0 -45px;
+    transform: rotate(-50deg);
+}
+
+.escondido {
+    opacity: 0;
+    display: none;    
+    transition: 1000ms;    
+}
+
+
+/* ----- RESPONSIVO MEDIA SCREEN ----- */	
+
+
+@media screen and (max-width: 992px) {
+
+    #projetos {
+        width: 100%;
+        height: 150%;         
+    }  
+    
+    .projetos h2 {
+        padding-top: 50px;
+        
+    }
+
+    .projetos-itens {
+        
+        flex-direction: column;                
+    }
+
+    .pro {
+        margin: 0 auto;
+    } 
+    
+    .pro1 {
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    #projetos {
+        height: 180%;         
+    }
+      
+    .projetos-itens {
+        flex-direction: column;
+              
+    }
+
+    .pro {
+        margin: 0 auto;        
+    }
+
+    .pro1 {
+        margin: 0 auto;
+    }
+   
+}
+
+@media screen and (max-width: 600px) {
+    
+    .pro {
+        max-width: 300px;
+        margin: 0 auto;
+    }  
+    
+}
+
+
+
+
+
+
+
+
+
