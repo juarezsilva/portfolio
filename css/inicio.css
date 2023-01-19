@@ -247,10 +247,11 @@ section.conteudo-geral {
 }
 
 .descricao2 {
-    width: 50%;         
+    width: 50%;
+    padding-left: 50px;         
 }
 .descricao-meu-desenho img {
-    width: 50%;     
+    width: 70%;     
 }
 
 @keyframes desenhoAnimacao {
@@ -296,6 +297,14 @@ section.conteudo-geral {
 
     .nav-list {
        z-index: 999;    
+    }
+
+    .descricao2 {
+        width: 50%;
+        padding-left: 50px;         
+    }
+    .descricao-meu-desenho img {
+        width: 90%;     
     }
 
 }
@@ -360,6 +369,7 @@ section.conteudo-geral {
     .servicos {
         width: 90%;        
         text-align: center;
+        margin: 0;
         display: flex;
         flex-direction: column-reverse; 
         padding-top: 20px;               
@@ -371,18 +381,18 @@ section.conteudo-geral {
     }
 
     .descricao-meu-desenho img {
-        width: 90%;     
+        width: 100%; 
+        padding-left: 20px;    
     }
 
     .descricao1 {
-        width: 100%;
-        margin: 0 auto;
-        padding-bottom: 10px;
-        text-align: center;
+        width: 100%;       
+        padding-bottom: 10px;        
     }
 
     .descricao1-wraper {
-        display: inline-block;               
+        display: inline-block; 
+        padding-left: 35px;              
     }
     
     .descricao1-wraper h2 {        
